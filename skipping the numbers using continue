@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+	int p,q,r,i,c=0;
+	p=60;
+	q=70;
+	r=3; 
+	for(i=p;i<=q;i++)
+	{
+		if(c!=r)
+			{
+			printf("%d\n",i);
+			c++;
+		}
+		
+		else
+		{
+			c++;
+			continue;
+			
+		}
+	}
+}
